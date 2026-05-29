@@ -5,9 +5,8 @@
 #1 [ ] [ ] [ ]
 #2 [ ] [ ] [ ]
 
-def interface():   #Define a função interface para exibir o tabuleiro do jogo da velha
+def interface():
 
-    #Exibe o tabuleiro do jogo da velha, mostrando as coordenadas para facilitar a jogabilidade
     print("   0   1   2")
     print("0 [{}] [{}] [{}]".format(tabuleiro[0][0], tabuleiro[0][1], tabuleiro[0][2]))
     print("1 [{}] [{}] [{}]".format(tabuleiro[1][0], tabuleiro[1][1], tabuleiro[1][2]))
